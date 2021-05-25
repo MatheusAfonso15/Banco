@@ -23,8 +23,8 @@ public class Caixa {
         
          public static void saldo(int conta, float saldo) {
          System.out.println("======");
-    	 System.out.println("Conta:" + numeroConta);
-    	 System.out.println("Saldo: R$ " + saldoConta);
+    	 System.out.println("Conta:" + conta);
+    	 System.out.println("Saldo: R$ " + saldo);
          }
     
 
