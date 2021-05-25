@@ -1,0 +1,32 @@
+package caixaautomatico;
+
+public class Caixa {
+
+	public static void main(String[] args) {
+		
+		int numeroConta = 212121;
+		float saldoConta = 100;
+		
+		//Deposito de 50 dinheiros
+		saldoConta = movimentação(saldoConta, 50);
+
+		saldo(numeroConta, saldoConta);
+		
+		//Saque 75
+		saldoConta = movimentação(saldoConta, -75);
+		saldoConta(numeroConta, saldoConta);
+			
+	}
+        public static float movimentação(float saldo, float valor) {
+        	return saldo + valor;     	
+        }
+	
+        
+         public static void saldo(int conta, float saldo) {
+         System.out.println("======");
+    	 System.out.println("Conta:" + numeroConta);
+    	 System.out.println("Saldo: R$ " + saldoConta);
+         }
+    
+
+}
