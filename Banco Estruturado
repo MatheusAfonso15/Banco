@@ -9,12 +9,11 @@ public class Caixa {
 		
 		//Deposito de 50 dinheiros
 		saldoConta = movimentação(saldoConta, 50);
-
 		saldo(numeroConta, saldoConta);
 		
 		//Saque 75
 		saldoConta = movimentação(saldoConta, -75);
-		saldoConta(numeroConta, saldoConta);
+		saldo(numeroConta, saldoConta);
 			
 	}
         public static float movimentação(float saldo, float valor) {
