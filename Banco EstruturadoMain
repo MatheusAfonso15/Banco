@@ -1,0 +1,23 @@
+package caixaautomatico00;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Conta c = new Conta();
+		
+		c.conta = 212121;
+         
+		//Depositar 50 dinheiros
+		c.movimentação(50);
+
+		c.saldo();
+		
+		//Sacar 75 dinheiros
+		c.movimentação(-75);
+		
+		c.saldo();
+		
+	}
+
+}
