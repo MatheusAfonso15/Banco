@@ -1,0 +1,25 @@
+package caixaautomatico00;
+
+public class ContaComSegurança {
+	
+	private int  conta;
+	private float saldo;
+	
+	public ContaComSegurança(int conta){
+		this.conta = conta;
+		this.saldo = 0;
+	}
+	
+	private void movimentação(float valor) {
+		this.saldo = this.saldo +valor;
+		
+	}
+
+	private void saldo() {
+		System.out.println("======");
+		System.out.println("Conta: " + this.conta);
+		System.out.println("Saldo  R$:" + this.saldo);
+		
+	}
+	
+}
