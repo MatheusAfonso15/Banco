@@ -14,8 +14,15 @@ public class Caixa {
 		System.out.println("Conta:" + numeroConta);
 		System.out.println("Saldo: R$ " + saldoConta);
 		
+		//Saque de 75 reais
+		saldoConta = saldoConta - 75;
+		
+		System.out.println("======");
+		System.out.println("Conta:" + numeroConta);
+		System.out.println("Saldo: R$ " + saldoConta);
 		
 		
+
 	}
 	
 	
